@@ -1,5 +1,5 @@
   #profil-card{
-    background-color: hsla(60, 100%, 50%, .4);
+    background-color: rgb rgb(233, 233, 63);
   }
 
   #head, #content{
@@ -10,33 +10,5 @@
     background-color: rgb(235, 118, 235);
   }
 
-  /* CSS reset */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 100%;
-}
 
-.profile-card {
-  width: 480px;
-  max-width: calc(100vw - 10px);
-}
-
-body{
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items:center;
-  background: url ('assets/galaxy.jpg') no-repeat center;
-  background-size: cover;
-}
-
-#content, #head, #profil-card{
-  text-align: center;
-}
-
-#profile-image {
-  
-}
