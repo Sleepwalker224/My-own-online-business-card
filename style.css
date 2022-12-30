@@ -1,18 +1,102 @@
-  #profile-card{
-    background-color: rgb(233, 233, 63);
-  }
-
-  #head, #content {
-   background-color: rgb(84, 190, 84); 
-  }
-
-   #profile-image, #name-headline, .about-me, .links{
-    background-color: rgb(235, 118, 235);
-  }
-
-  
 
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
 
+#profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('assets/galaxy.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Playfair Display';
+}
+
+#head, #content {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+}
+
+#profile-image{
+    margin-top: -60px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+#head, .about-me {
+  margin-bottom: 10%;
+}
+
+h1 {
+ font-size: x-large;
+ font-style: italic; 
+}
+
+h2 {
+  font-size: normal;
+}
+
+span{
+  text-decoration: underline;
+}
+
+.from{
+  text-decoration: none;
+}
+
+#content {
+  padding: 5% 10%;
+}
+
+.fa-map-marker{
+  color: rgba(147, 5, 5, 0.878);
+}
+
+a{
+  color:rgb(59, 62, 61);
+  cursor: pointer;
+}
+
+img:hover {
+  filter: grayscale(0%);
+}
+
+.facebook-icon:hover {
+  color:#385898;
+}
+
+.instagram-icon:hover {
+ color: rgba(183, 31, 191, 0.907);
+}
+
+.github-icon:hover {
+  color:black;
+}
 
