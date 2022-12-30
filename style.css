@@ -29,8 +29,14 @@ body{
   display: flex;
   justify-content: center;
   align-items:center;
+  background: url ('assets/galaxy.jpg') no-repeat center;
+  background-size: cover;
 }
 
-#content, #head{
-  text-align: right;
+#content, #head, #profil-card{
+  text-align: center;
+}
+
+#profile-image {
+  
 }
