@@ -1,14 +1,16 @@
   #profil-card{
-    background-color: rgb rgb(233, 233, 63);
+    background-color: rgb(233, 233, 63);
   }
 
-  #head, #content{
+  #head, #content {
    background-color: rgb(84, 190, 84); 
   }
 
-  #profile-image, #name-headline, .about-me, .links{
+   #profile-image, #name-headline, .about-me, .links{
     background-color: rgb(235, 118, 235);
   }
+
+
 
 
 
